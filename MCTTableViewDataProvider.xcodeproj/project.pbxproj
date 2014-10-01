@@ -30,8 +30,8 @@
 		84A6957C19DC97D30036802A /* MCTTableViewDataProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCTTableViewDataProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6958019DC97D30036802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A6958119DC97D30036802A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84A6958319DC97D30036802A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84A6958419DC97D30036802A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84A6958319DC97D30036802A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MCTTableViewDataProvider/AppDelegate.h; sourceTree = "<group>"; };
+		84A6958419DC97D30036802A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MCTTableViewDataProvider/AppDelegate.m; sourceTree = "<group>"; };
 		84A6958619DC97D30036802A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84A6958719DC97D30036802A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84A6958A19DC97D30036802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +63,8 @@
 		84A6957319DC97D30036802A = {
 			isa = PBXGroup;
 			children = (
+				84A6958319DC97D30036802A /* AppDelegate.h */,
+				84A6958419DC97D30036802A /* AppDelegate.m */,
 				84A6957E19DC97D30036802A /* MCTTableViewDataProvider */,
 				84A6959819DC97D30036802A /* MCTTableViewDataProviderTests */,
 				84A6957D19DC97D30036802A /* Products */,
@@ -81,10 +83,7 @@
 		84A6957E19DC97D30036802A /* MCTTableViewDataProvider */ = {
 			isa = PBXGroup;
 			children = (
-				84A6958319DC97D30036802A /* AppDelegate.h */,
-				84A6958419DC97D30036802A /* AppDelegate.m */,
-				84A6958619DC97D30036802A /* ViewController.h */,
-				84A6958719DC97D30036802A /* ViewController.m */,
+				84A695A619DC9B2D0036802A /* Controllers */,
 				84A6958919DC97D30036802A /* Main.storyboard */,
 				84A6958C19DC97D30036802A /* Images.xcassets */,
 				84A6958E19DC97D30036802A /* LaunchScreen.xib */,
@@ -117,6 +116,15 @@
 				84A6959A19DC97D30036802A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A695A619DC9B2D0036802A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84A6958619DC97D30036802A /* ViewController.h */,
+				84A6958719DC97D30036802A /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
