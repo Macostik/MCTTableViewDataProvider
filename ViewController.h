@@ -2,7 +2,7 @@
 //  ViewController.h
 //  MCTTableViewDataProvider
 //
-//  Created by Macostik on 10/1/14.
+//  Created by Macostik on 10/21/14.
 //  Copyright (c) 2014 Macostik. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-

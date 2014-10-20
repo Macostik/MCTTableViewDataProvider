@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56D545EF19F5A5B9008AF522 /* MCTTableViewDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D545EE19F5A5B9008AF522 /* MCTTableViewDataProvider.m */; };
+		56D545F219F5A984008AF522 /* MCTEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D545F119F5A984008AF522 /* MCTEntryCell.m */; };
+		56D545F619F5B0FC008AF522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D545F519F5B0FC008AF522 /* ViewController.m */; };
 		84A6958219DC97D30036802A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6958119DC97D30036802A /* main.m */; };
 		84A6958519DC97D30036802A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6958419DC97D30036802A /* AppDelegate.m */; };
-		84A6958819DC97D30036802A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6958719DC97D30036802A /* ViewController.m */; };
 		84A6958B19DC97D30036802A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6958919DC97D30036802A /* Main.storyboard */; };
 		84A6958D19DC97D30036802A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6958C19DC97D30036802A /* Images.xcassets */; };
 		84A6959019DC97D30036802A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6958E19DC97D30036802A /* LaunchScreen.xib */; };
@@ -27,13 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56D545ED19F5A5B9008AF522 /* MCTTableViewDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCTTableViewDataProvider.h; path = ../MCTTableViewDataProvider/MCTTableViewDataProvider.h; sourceTree = "<group>"; };
+		56D545EE19F5A5B9008AF522 /* MCTTableViewDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCTTableViewDataProvider.m; path = ../MCTTableViewDataProvider/MCTTableViewDataProvider.m; sourceTree = "<group>"; };
+		56D545F019F5A984008AF522 /* MCTEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCTEntryCell.h; path = /Users/Macostik/Documents/MCTEntryCell/MCTEntryCell.h; sourceTree = "<absolute>"; };
+		56D545F119F5A984008AF522 /* MCTEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCTEntryCell.m; path = /Users/Macostik/Documents/MCTEntryCell/MCTEntryCell.m; sourceTree = "<absolute>"; };
+		56D545F419F5B0FC008AF522 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		56D545F519F5B0FC008AF522 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
 		84A6957C19DC97D30036802A /* MCTTableViewDataProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCTTableViewDataProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6958019DC97D30036802A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A6958119DC97D30036802A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84A6958319DC97D30036802A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MCTTableViewDataProvider/AppDelegate.h; sourceTree = "<group>"; };
 		84A6958419DC97D30036802A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MCTTableViewDataProvider/AppDelegate.m; sourceTree = "<group>"; };
-		84A6958619DC97D30036802A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84A6958719DC97D30036802A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84A6958A19DC97D30036802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A6958C19DC97D30036802A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84A6958F19DC97D30036802A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,11 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56D545F319F5A989008AF522 /* MCTEntryCell */ = {
+			isa = PBXGroup;
+			children = (
+				56D545F019F5A984008AF522 /* MCTEntryCell.h */,
+				56D545F119F5A984008AF522 /* MCTEntryCell.m */,
+				56D545F419F5B0FC008AF522 /* ViewController.h */,
+				56D545F519F5B0FC008AF522 /* ViewController.m */,
+			);
+			name = MCTEntryCell;
+			sourceTree = "<group>";
+		};
 		84A6957319DC97D30036802A = {
 			isa = PBXGroup;
 			children = (
 				84A6958319DC97D30036802A /* AppDelegate.h */,
 				84A6958419DC97D30036802A /* AppDelegate.m */,
+				84A6958919DC97D30036802A /* Main.storyboard */,
 				84A6957E19DC97D30036802A /* MCTTableViewDataProvider */,
 				84A6959819DC97D30036802A /* MCTTableViewDataProviderTests */,
 				84A6957D19DC97D30036802A /* Products */,
@@ -83,8 +101,7 @@
 		84A6957E19DC97D30036802A /* MCTTableViewDataProvider */ = {
 			isa = PBXGroup;
 			children = (
-				84A695A619DC9B2D0036802A /* Controllers */,
-				84A6958919DC97D30036802A /* Main.storyboard */,
+				84A695A619DC9B2D0036802A /* MCTTableViewDataProvider_ */,
 				84A6958C19DC97D30036802A /* Images.xcassets */,
 				84A6958E19DC97D30036802A /* LaunchScreen.xib */,
 				84A6957F19DC97D30036802A /* Supporting Files */,
@@ -118,12 +135,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		84A695A619DC9B2D0036802A /* Controllers */ = {
+		84A695A619DC9B2D0036802A /* MCTTableViewDataProvider_ */ = {
 			isa = PBXGroup;
 			children = (
-				84A6958619DC97D30036802A /* ViewController.h */,
-				84A6958719DC97D30036802A /* ViewController.m */,
+				56D545ED19F5A5B9008AF522 /* MCTTableViewDataProvider.h */,
+				56D545EE19F5A5B9008AF522 /* MCTTableViewDataProvider.m */,
+				56D545F319F5A989008AF522 /* MCTEntryCell */,
 			);
+			name = MCTTableViewDataProvider_;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -227,9 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A6958819DC97D30036802A /* ViewController.m in Sources */,
 				84A6958519DC97D30036802A /* AppDelegate.m in Sources */,
 				84A6958219DC97D30036802A /* main.m in Sources */,
+				56D545EF19F5A5B9008AF522 /* MCTTableViewDataProvider.m in Sources */,
+				56D545F219F5A984008AF522 /* MCTEntryCell.m in Sources */,
+				56D545F619F5B0FC008AF522 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +279,7 @@
 				84A6958A19DC97D30036802A /* Base */,
 			);
 			name = Main.storyboard;
+			path = MCTTableViewDataProvider;
 			sourceTree = "<group>";
 		};
 		84A6958E19DC97D30036802A /* LaunchScreen.xib */ = {
@@ -420,6 +442,7 @@
 				84A695A119DC97D30036802A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A695A219DC97D30036802A /* Build configuration list for PBXNativeTarget "MCTTableViewDataProviderTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +451,7 @@
 				84A695A419DC97D30036802A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
